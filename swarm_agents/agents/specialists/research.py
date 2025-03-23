@@ -1,3 +1,4 @@
+from typing import Any
 from ...agents.base import Agent
 
 class ResearchAgent(Agent):

@@ -69,9 +69,9 @@ def main(
     # Initialize the swarm agent system
     try:
         swarm = SwarmAgentSystem()
-        console.print("✓ Swarm Agent System initialized successfully")
+        console.print("SUCCESS: Swarm Agent System initialized successfully")
     except Exception as e:
-        console.print(f"✗ Failed to initialize Swarm Agent System: {e}")
+        console.print(f"ERROR: Failed to initialize Swarm Agent System: {e}")
         return
     
     # Main interaction loop
